@@ -1,7 +1,7 @@
 import numpy as np
 
 teste = np.array([[32], [57], [101], [77]])
-res = teste[2:]
+
 def decimal_para_binario(saida_desejada):
     binario = []
     for i in range(len(saida_desejada)):
