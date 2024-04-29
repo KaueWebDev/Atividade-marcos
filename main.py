@@ -1,9 +1,7 @@
 import random
-print("Oi, eu me chamo Kauê Anderson")
-inicio = input("Digite seu nome para calcular a conta já prgramada:")
-aleat1 = random.randint(0, 100)
-aleat2 = random.randint(0, 100)
-x = aleat1
-y = aleat2
-soma = x + y
-print(f"Kauê somou {soma}")
+print("Olá, eu me chamo Kauê")
+name = input("Digite seu nome para começarmos a converter:")
+aleat = random.randint(0, 200)
+binary = bin(aleat)
+res = binary[2:]
+print(res)
