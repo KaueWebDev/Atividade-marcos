@@ -1,7 +1,10 @@
-import random
-print("Olá, eu me chamo Kauê")
-name = input("Digite seu nome para começarmos a converter:")
-aleat = random.randint(0, 200)
-binary = bin(aleat)
-res = binary[2:]
-print(res)
+import numpy as np
+
+teste = np.array([[32], [57], [101], [77]])
+res = teste[2:]
+def decimal_para_binario(saida_desejada):
+    binario = []
+    for i in range(len(saida_desejada)):
+        binario.append(bin(int(saida_desejada[i])))
+    return binario
+print(decimal_para_binario(teste))
